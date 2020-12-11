@@ -1,4 +1,5 @@
 import React from 'react';
+import './Card.css';
 
 //Accepts two props title and component
 //title is a string of the card's title
@@ -10,7 +11,7 @@ function Card(props) {
         <div className="Card">
             <button type="button">delete</button>
             <h3>{props.title}</h3>
-    <       p>{props.content}</p>
+            <p>{props.content}</p>
         </div>
     );
 }
