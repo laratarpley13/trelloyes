@@ -15,4 +15,4 @@ describe('List component', () => {
             .toJSON();
         expect(tree).toMatchSnapshot();
     });
-});
+});q
